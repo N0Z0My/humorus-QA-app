@@ -12,7 +12,7 @@ def show_quiz_screen(df, logger=None):
     if logger is None:
         logger = setup_logger(user_id=st.session_state.get('nickname'))
           
-    st.title("🗽海外旅行の基礎知識Check🏝️")
+    st.title("🏥感染症予防の基礎知識Check💉")
 
     # セッション状態の初期化
     if 'answered_questions' not in st.session_state:
